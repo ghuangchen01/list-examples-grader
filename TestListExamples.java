@@ -45,13 +45,4 @@ public class TestListExamples {
     List<String> expected = Arrays.asList("a", "b", "c");
     assertEquals(expected, merged);
   }  
-
-  //  @Test(timeout = 500)
-  // public void testFilterRightEnd1() {
-  //   List<String> left = Arrays.asList("a", "b", "c", 1);
-  //   StringChecker right;
-  //   List<String> merged = ListExamples.filter(left, right);
-  //   List<String> expected = Arrays.asList("a", "b", "c");
-  //   assertEquals(expected, merged);
-  // }  
 }
