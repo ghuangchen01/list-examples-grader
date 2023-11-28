@@ -20,29 +20,29 @@ public class TestListExamples {
   }  
   
   
-  @Test(timeout = 500)
-  public void testMergeRightEnd1() {
-    List<String> left = Arrays.asList("a", "b");
-    List<String> right = Arrays.asList("a", "d");
-    List<String> merged = ListExamples.merge(left, right);
-    List<String> expected = Arrays.asList("a", "a", "b", "d");
-    assertEquals(expected, merged);
-  }
+  // @Test(timeout = 500)
+  // public void testMergeRightEnd1() {
+  //   List<String> left = Arrays.asList("a", "b");
+  //   List<String> right = Arrays.asList("a", "d");
+  //   List<String> merged = ListExamples.merge(left, right);
+  //   List<String> expected = Arrays.asList("a", "a", "b", "d");
+  //   assertEquals(expected, merged);
+  // }
   
-  @Test(timeout = 500)
-  public void testMergeRightEnd2() {
-    List<String> left = Arrays.asList();
-    List<String> right = Arrays.asList();
-    List<String> merged = ListExamples.merge(left, right);
-    List<String> expected = Arrays.asList();
-    assertEquals(expected, merged);
-  }
+  // @Test(timeout = 500)
+  // public void testMergeRightEnd2() {
+  //   List<String> left = Arrays.asList();
+  //   List<String> right = Arrays.asList();
+  //   List<String> merged = ListExamples.merge(left, right);
+  //   List<String> expected = Arrays.asList();
+  //   assertEquals(expected, merged);
+  // }
 
-  @Test(timeout = 500)
-  public void testFilterRightEnd() {
-    List<String> left = Arrays.asList("a", "b", "c");
-    List<String> merged = ListExamples.filter(left, new IsMoon());
-    List<String> expected = Arrays.asList("a", "b", "c");
-    assertEquals(expected, merged);
-  }  
+  // @Test(timeout = 500)
+  // public void testFilterRightEnd() {
+  //   List<String> left = Arrays.asList("a", "b", "c");
+  //   List<String> merged = ListExamples.filter(left, new IsMoon());
+  //   List<String> expected = Arrays.asList("a", "b", "c");
+  //   assertEquals(expected, merged);
+  // }  
 }

@@ -1,15 +1,6 @@
 JUnit version 4.13.2
-....E
-Time: 0.006
-There was 1 failure:
-1) testFilterRightEnd(TestListExamples)
-java.lang.AssertionError: expected:<[a, b, c]> but was:<[]>
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.failNotEquals(Assert.java:835)
-	at org.junit.Assert.assertEquals(Assert.java:120)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at TestListExamples.testFilterRightEnd(TestListExamples.java:46)
+.
+Time: 0.004
 
-FAILURES!!!
-Tests run: 4,  Failures: 1
+OK (1 test)
 
